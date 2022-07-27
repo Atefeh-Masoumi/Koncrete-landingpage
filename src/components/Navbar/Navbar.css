@@ -1,8 +1,9 @@
-.Container{
 
-}
 .row{
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(46,46,55,0.01);
 }
 .navbar{
 display: flex;
@@ -29,4 +30,38 @@ justify-content: space-evenly;
 width:78px;
 height:86px;
                   
+}
+/* middle nav */
+.middle-nav{
+margin: 0 auto;
+flex-basis: 60%;
+display: flex;
+flex-direction: row;
+}
+
+
+li{
+   
+    list-style: none;
+}
+/* left nav */
+.nav{
+flex: 1 0 20%;
+display: block;
+width: 100%;
+}
+.inner-leftnav-div{
+margin-top: 6px;
+margin-right: 10px;
+margin-bottom: 1px;
+}
+.inner-leftbuton{
+font-size: 14px;
+color: #2e2e37;
+font-weight: 700;
+padding: 5px 25px;
+margin-bottom: -5px;
+border-radius: 10px;
+background-color: #ffc300;
+border: 1px solid transparent;
 }

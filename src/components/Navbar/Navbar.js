@@ -4,8 +4,31 @@ const Navbar = () => {
     <div className="Container header_2">
       <div className="row">
         <div className="navbar">
+        <div className="left-nav nav">
+            <div className="inner-leftnav-div">
+              <a className="inner-leftbuton">
+                <span>خرید از مارکت ژاکت</span>
+
+              </a>
+
+            </div>
+          </div>
+          <ul className="middle-nav ">
+            <li >
+              <span>خانه</span>
+            </li>
+            <li>
+              <span>مستندات قالب</span>
+            </li>
+            <li>
+              <span>وب سایت اصلی</span>
+            </li>
+            <li>
+              <span>خانه</span>
+            </li>
+          </ul>
           {/* logo */}
-          <div class="">
+          <div className="right-nav nav">
             <div
               className="outer-logoarea"
               
@@ -25,20 +48,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="middle-nav">
-            <div>
-              <span>خانه</span>
-            </div>
-            <div>
-              <span>مستندات قالب</span>
-            </div>
-            <div>
-              <span>خانه</span>
-            </div>
-            <div>
-              <span>خانه</span>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
