@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import homepage1 from "../../asset/Images/home-1.jpg";
 import "./Body.css";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import particleConfig from '../Particle/particleConfig';
+
 
 const Body = () => {
   const particlesInit = async (main) => {
@@ -28,7 +28,7 @@ const Body = () => {
             enable: "false" // this is the line to change
           },
           style:{
-            position: "relative",
+            position: "absolute",
             zIndex: "1",
             height: "65vh",
           },
@@ -164,16 +164,39 @@ const Body = () => {
         }}
         />
       </div>
-      <div>
-        <h3>
-          <span>6</span>
-          <span>دمو کاملا فارسی و قدرتمند</span>
+      {/* head text */}
+      <div className="relative">
+        <h3 className="head-body-text">          
+          <span className="text">دمو کاملا فارسی و قدرتمند</span>
+          <span className="text font-84"> 6 </span>
         </h3>
       </div>
+        {/* demos */}
 
+        <div className="card-container">
+          <div className="crad-wrapper">
+            <div className="outer-card-div">
+              <figure className="card">
+                <img src={homepage1} alt="demo1" className="demo"/>
+                <figcaption>
+                  <div>
+                    <h4>پیش نمایش انلاین</h4>
+                    <p className="demo-text">
+                      <span className="demo-span" >دمو شماره 1 (پیش فرض)</span>
+                    </p>
+                  </div>
+                  <a href="https://danapeyvast.com/products/koncrete-wp-theme/demos/">
 
+                  </a>
+                </figcaption>
 
+              </figure>
 
+            </div>
+
+          </div>
+
+        </div>
 
     </>
   );

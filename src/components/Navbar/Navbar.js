@@ -33,7 +33,7 @@ const Navbar = () => {
               className="outer-logoarea"
               
             >
-              <div class="logo header_2">
+              <div className="logo header_2">
                 <a
                   href="https://danapeyvast.com/products/koncrete-wp-theme/landing/"
                   title="یک سایت دیگر با وردپرس فارسی"

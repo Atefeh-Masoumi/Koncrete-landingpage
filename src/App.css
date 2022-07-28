@@ -4,3 +4,12 @@
 .absolute{
     position: absolute;
 }
+
+@font-face {
+    font-family: Pelak;
+    src: url(asset/Fonts/Pelak-Medium.woff);
+  }
+  @font-face {
+    font-family: Rezvan;
+    src: url(asset/Fonts/Rezvan.ttf);
+  }

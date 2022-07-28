@@ -11,12 +11,12 @@ const Header = () => {
     <>
       <div className="header">
         <div className="bg-img">
-          <img src={bgblack} className="header-image" />
+          <img src={bgblack} className="header-image" alt="header background" />
         </div>
         <div className="inner-header-img">
           <div className="contain">
             <div className="crane-container">
-              <img src={crane} className="crane-img" />
+              <img src={crane} className="crane-img" alt="crane" />
             </div>
           </div>
           <div className="">
@@ -26,10 +26,10 @@ const Header = () => {
               </span>
             </div>
             <div className="bg-header-logo">
-              <img src={darklogo} />
+              <img src={darklogo} alt="logo" />
             </div>
             <div className="drrick-container">
-              <img src={derrick} className="derrick-img" />
+              <img src={derrick} className="derrick-img" alt="derrick" />
             </div>
           </div>
         </div>
