@@ -13,27 +13,33 @@ const Navbar = () => {
 
             </div>
           </div>
-          <ul className="middle-nav ">
-            <li >
-              <span>خانه</span>
+          {/* center menu */}
+          <div className="middle-nav">
+          
+            <ul className=" ceneter-nav-content">
+            <li id="menu-header">
+              <span className="nav-text hometext-nav">خانه</span>
             </li>
             <li>
-              <span>مستندات قالب</span>
+              <span className="nav-text">مستندات قالب</span>
             </li>
             <li>
-              <span>وب سایت اصلی</span>
+              <span className="nav-text">وب سایت اصلی</span>
             </li>
             <li>
-              <span>خانه</span>
+              <span className="nav-text">پشتیبانی</span>
             </li>
           </ul>
+
+
+          </div>
           {/* logo */}
           <div className="right-nav nav">
             <div
               className="outer-logoarea"
               
             >
-              <div className="logo header_2">
+              <div className="logo ">
                 <a
                   href="https://danapeyvast.com/products/koncrete-wp-theme/landing/"
                   title="یک سایت دیگر با وردپرس فارسی"

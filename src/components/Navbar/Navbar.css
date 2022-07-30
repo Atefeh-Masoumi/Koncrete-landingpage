@@ -1,13 +1,25 @@
-
+.Container{   
+    height: 4rem;
+    background-color: #2e2e37;
+} 
 .row{
-    border-radius: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: rgba(46,46,55,0.01);
+    padding-top: 1px;
+    padding-bottom: 8px;
+    box-shadow: 1px 1px 40px rgb(255 195 0 / 14%);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    backface-visibility: hidden;
+    transition: transform 400ms ease-in-out, padding 400ms ease-in-out;
 }
 .navbar{
 display: flex;
-justify-content: space-evenly;
+
+align-items: center;
 }
 .row > .navbar {
 
@@ -16,7 +28,7 @@ justify-content: space-evenly;
 }
 
 .header_2{
-    background-color: rgba(46,46,55,0.01);
+   
     padding-top: -7px;
     margin-bottom: -3px;
     position: relative;
@@ -26,20 +38,48 @@ justify-content: space-evenly;
     margin-right:10px;
     margin-bottom:-29px
 }
+
 .logo-img{
-width:78px;
-height:86px;
-                  
+    width:78px;
+    height:86px;
+    background-color: transparent;
+    background-image: none ;
+    opacity: 1;
+    top:0;
+    margin-top: -15px;               
 }
 /* middle nav */
 .middle-nav{
 margin: 0 auto;
 flex-basis: 60%;
-display: flex;
-flex-direction: row;
+
 }
-
-
+.ceneter-nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    direction: rtl;
+}
+.nav-text{
+    color: #ffffff;
+    padding: 5px 16px;
+    margin: 0px 2px 0px 0px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-family: iranyekan;
+}
+.nav-text:hover{
+    background-color: #ffc300;    
+    border-radius: 15px;
+    color: #000;
+}
+.hometext-nav{
+    background-color: #ffc300;    
+    border-radius: 15px;
+    color: #000;
+}
 li{
    
     list-style: none;
@@ -50,18 +90,26 @@ flex: 1 0 20%;
 display: block;
 width: 100%;
 }
+.left-nav{
+    display: flex;
+    justify-content: end;
+}
 .inner-leftnav-div{
-margin-top: 6px;
-margin-right: 10px;
+
 margin-bottom: 1px;
+
 }
 .inner-leftbuton{
 font-size: 14px;
 color: #2e2e37;
-font-weight: 700;
-padding: 5px 25px;
+font-weight: 600;
+padding: 9px 20px;
 margin-bottom: -5px;
 border-radius: 10px;
 background-color: #ffc300;
 border: 1px solid transparent;
+position: relative;
+overflow: hidden;
+z-index: 1;
+font-family: iranyekan;
 }

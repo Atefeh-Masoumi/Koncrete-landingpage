@@ -3,10 +3,9 @@ import crane from "../../asset/Images/crane.png";
 import bgblack from "../../asset/Images/Black-Desktop-Wallpaper-4k-scaled-1.jpg";
 import derrick from "../../asset/Images/car.png";
 import darklogo from "../../asset/Images/logo-dark.png";
-import {ReactComponent as Svgl} from '../Svg.svg';
+import { ReactComponent as Svgl } from "../Svg.svg";
 
 const Header = () => {
-    
   return (
     <>
       <div className="header">
@@ -20,13 +19,15 @@ const Header = () => {
             </div>
           </div>
           <div className="">
-            <div className="header-box-transparent">
-              <span className="header-text">
-                شاهکارقالب های شرکتی،ساختمانی وردپرس
-              </span>
-            </div>
-            <div className="bg-header-logo">
-              <img src={darklogo} alt="logo" />
+            <div className="headerbox-div">
+              <div className="header-box-transparent">
+                <span className="header-text">
+                  شاهکارقالب های شرکتی،ساختمانی وردپرس
+                </span>
+              </div>
+              <div className="bg-header-logo">
+                <img src={darklogo} alt="logo" />
+              </div>
             </div>
             <div className="drrick-container">
               <img src={derrick} className="derrick-img" alt="derrick" />
@@ -35,10 +36,9 @@ const Header = () => {
         </div>
       </div>
 
-
       {/* bottom svg */}
       <div className="svg-container ">
-      <Svgl className="svg"/>
+        <Svgl className="svg" />
       </div>
     </>
   );
