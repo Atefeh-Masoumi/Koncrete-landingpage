@@ -198,6 +198,14 @@ const Body = () => {
 
         </div>
 
+        {/* footer */}
+
+        <div className="footer">
+          <div>
+
+          </div>
+        </div>
+
     </>
   );
 };
