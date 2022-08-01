@@ -17,6 +17,10 @@
     font-family: iranyekan;
     src: url(asset/Fonts/iranyekanwebregularfanum.woff);
   }
+  body{
+    background-color: #2e2e37;
+  }
   *{
-   
+    
+    box-sizing: border-box;
   }

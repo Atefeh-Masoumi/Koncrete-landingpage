@@ -1,5 +1,8 @@
+import { useState } from "react";
 import "./Navbar.css";
+import hambergermenu from "../../asset/Images/menu-hamburger-custom.svg";
 const Navbar = () => {
+  const [showNav, setShownav] = useState(false);
   return (
     <div className="Container header_2">
       <div className="row">
@@ -15,8 +18,8 @@ const Navbar = () => {
           </div>
           {/* center menu */}
           <div className="middle-nav">
-          
-            <ul className=" ceneter-nav-content">
+            <img src={hambergermenu} className="hamberger-menu" onClick={()=>setShownav(!showNav)}/>
+            <ul className={showNav? " ceneter-nav-content": "none"}>
             <li id="menu-header">
               <span className="nav-text hometext-nav">خانه</span>
             </li>
