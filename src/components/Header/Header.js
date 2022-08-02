@@ -12,14 +12,14 @@ const Header = () => {
         <div className="bg-img">
           <img src={bgblack} className="header-image" alt="header background" />
         </div>
-        <div className="inner-header-img">
-          <div className="contain">
+        <div className="inner-header-img section">
+          <div className="contain ">
             <div className="crane-container">
-              <img src={crane} className="crane-img" alt="crane" />
+              <img src={crane} className="crane-img " alt="crane" />
             </div>
           </div>
           <div className="">
-            <div className="headerbox-div">
+            <div className="headerbox-div ">
               <div className="header-box-transparent">
                 <span className="header-text">
                   شاهکارقالب های شرکتی،ساختمانی وردپرس
@@ -29,7 +29,7 @@ const Header = () => {
                 <img src={darklogo} alt="logo" />
               </div>
             </div>
-            <div className="drrick-container">
+            <div className="drrick-container ">
               <img src={derrick} className="derrick-img" alt="derrick" />
             </div>
           </div>

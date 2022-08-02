@@ -71,7 +71,7 @@ flex-basis: 60%;
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0;
-    font-family: iranyekan;
+    font-family: "iranyekan";
 }
  .nav-text:hover{
     background-color: #ffc300;    
@@ -115,7 +115,7 @@ border: 1px solid transparent;
 position: relative;
 overflow: hidden;
 z-index: 1;
-font-family: iranyekan;
+font-family: "iranyekan";
 }
 .hamberger-menu{
     display: none;
@@ -168,6 +168,8 @@ font-family: iranyekan;
     .hamberger-menu{
         display: block;
         padding: 5px;
+        margin-left: 20px;
+
     }
     .left-nav{
         display: none;
@@ -177,7 +179,6 @@ font-family: iranyekan;
         justify-content: space-between;
     }
     .ceneter-nav-content{
-     
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
@@ -202,15 +203,19 @@ font-family: iranyekan;
         justify-content: flex-start;
         margin-top: 8px;
         padding: 5px 5px 5px 0px;
-    border-bottom: 1px solid rgba(167, 167, 167, .2);
+        border-bottom: 1px solid rgba(167, 167, 167, .2);
     }
     .ceneter-nav-content li span {
         width: 100%;
         float: none;
         padding: 10px 20px;
-    
+        opacity: 0.9;
     }
-
+    .nav-text:hover{
+        opacity: 1;
+        background-color: transparent;
+        color: #ffffff;
+    }
     .hometext-nav{
         background-color: transparent;
         color: #ffffff;
@@ -218,6 +223,17 @@ font-family: iranyekan;
     }
     .none{
         display: none;
+    }
+    .outer-logoarea{
+        margin-right: 20px;
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logo-img{
+        width: 58px;
+        height: 66px;
     }
 
 }

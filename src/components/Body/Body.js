@@ -347,7 +347,7 @@ const Body = () => {
                 <div>
                   <h4>پیش نمایش آنلاین</h4>
                   <p className="demo-text">
-                    <span className="demo-span">دمو شماره 3 </span>
+                    <span className="demo-span">دمو شماره 3 ( تک صفحه ای )</span>
                   </p>
                 </div>
                 <a
@@ -365,7 +365,7 @@ const Body = () => {
                 <div>
                   <h4>پیش نمایش انلاین</h4>
                   <p className="demo-text">
-                    <span className="demo-span">دمو شماره 4 </span>
+                    <span className="demo-span">دمو شماره 4 ( تک صفحه ای )</span>
                   </p>
                 </div>
                 <a
@@ -382,7 +382,7 @@ const Body = () => {
                 <div>
                   <h4>پیش نمایش آنلاین</h4>
                   <p className="demo-text">
-                    <span className="demo-span">دمو شماره 5 </span>
+                    <span className="demo-span">دمو شماره 5 ( تک صفحه ای )</span>
                   </p>
                 </div>
                 <a
@@ -400,7 +400,7 @@ const Body = () => {
                 <div>
                   <h4>پیش نمایش آنلاین</h4>
                   <p className="demo-text">
-                    <span className="demo-span">دمو شماره 6 </span>
+                    <span className="demo-span">دمو شماره 6 ( تک صفحه ای )</span>
                   </p>
                 </div>
                 <a
@@ -412,8 +412,9 @@ const Body = () => {
             </figure>
           </div>
         </div>
+      
       <footer className="footer-up">
-      <div className="h-100">
+      
         <div className="footer-container">
           <div className="footer">
             <h3 className="footer-text">
@@ -430,12 +431,12 @@ const Body = () => {
               </a>
             </div>
           </div>  
-        </div>
+        
 
       </div>
       <div className="h-100 "></div>
       <div className="border-khat">
-       <div>
+       <div className="space">
         <span className="text-bottom">   بومی و فارسی سازی توسط : دانا پیوست © |  </span>
         <a className="text-bottom">مشاهده نمونه کارها و خرید محصولات</a>
        </div>

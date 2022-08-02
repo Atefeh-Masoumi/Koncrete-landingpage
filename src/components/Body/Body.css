@@ -111,7 +111,9 @@ h4{
     opacity: 0;
     transition: opacity .35s;
     text-align: center;
-    width: calc(100% - 4em);
+    width: calc(100% );
+    
+   
 }
 .card:hover .demo-text{
     
@@ -119,7 +121,8 @@ h4{
 }
 .demo-span{
 color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
+    
 }
 figcaption > a {
     z-index: 1000;
@@ -143,13 +146,18 @@ figcaption > a {
     align-items: center;
 }
 .h-100{
-    height: 100px;
+    height: 4rem;
 }
 .footer-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row; 
+  overflow: auto;
+width: 100%;
+  max-width: 80em;
+  flex-wrap: wrap;
+    
 }
 .footer{
     position: relative;
@@ -158,7 +166,11 @@ figcaption > a {
     word-break: normal;
     background-color: #ffc300;
     border-radius: 15px;
-    padding: 10px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80em;
 }
 .footer-text{
 font-family: "iranyekan";
@@ -179,11 +191,45 @@ text-align: center;
     text-align: center;
     padding: 15px;
 }
+.space{
+    padding: 5px;
+}
 .border-khat{
     border-top: 1px solid rgba(255,255,255,0.2);  
+    width: 80em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text-bottom{
     font-family: 'iranyekan';
     font-size: 13px;
     color: #ffffff;
+    text-align:center ;
+    
+}
+@media (max-width:1500px) and (min-width:1000px) {
+    .footer-container{
+        max-width: 100%;
+    }
+    .footer{
+        width: 90%;
+
+    }
+    .border-khat{
+        width: 90%;
+    }
+}
+@media(max-width:1000px){
+    .footer-container{
+       
+        max-width: 100%;
+    }
+    .footer{
+        width: 80%;
+
+    }
+    .border-khat{
+        width: 80%;
+    }
 }
