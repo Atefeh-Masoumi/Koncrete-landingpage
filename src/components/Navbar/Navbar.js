@@ -19,17 +19,24 @@ const Navbar = () => {
           {/* center menu */}
           <div className="middle-nav">
             <img src={hambergermenu} className="hamberger-menu" onClick={()=>setShownav(!showNav)}/>
-            <ul className={showNav? " ceneter-nav-content": "none"}>
-            <li id="menu-header">
+            <ul id="menu-header" className= {
+              'ceneter-nav-content ' + '' +(showNav ? "ceneter-nav-content": "none")   }>
+            <li className="cz">
+              <a href="#">
               <span className="nav-text hometext-nav">خانه</span>
+              </a>
             </li>
-            <li>
+            <li className="cz">
+            <a href="#">
               <span className="nav-text">مستندات قالب</span>
+              </a>
             </li>
-            <li>
+            <li className="cz">
+            <a href="#">
               <span className="nav-text">وب سایت اصلی</span>
+              </a>
             </li>
-            <li>
+            <li className="cz">
               <span className="nav-text">پشتیبانی</span>
             </li>
           </ul>

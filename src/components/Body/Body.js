@@ -412,9 +412,6 @@ const Body = () => {
             </figure>
           </div>
         </div>
-      </div>
-
-      {/* footer */}
       <footer className="footer-up">
       <div className="h-100">
         <div className="footer-container">
@@ -445,6 +442,9 @@ const Body = () => {
       </div>
     
       </footer>
+      </div>
+
+      {/* footer */}
     </>
   );
 };

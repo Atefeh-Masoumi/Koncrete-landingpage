@@ -75,20 +75,18 @@ figcaption {
     margin-top: 0px;
     margin-bottom: 0px;
     border-radius: 0 0 10px 10px;    
-    padding: 1em 2em 0;
-     height: 2em; 
+    padding: 0.5em 0em 0; 
+    height: 2.5em; 
     color: #333;
-    width: calc(100% - 4em);
+    width: 100%;
     transition: transform .35s;  
-     transform: translate3d(0, 100%, 0); 
+    transform: translate3d(0, 100%, 0); 
     object-fit: contain;
 }
 .card:hover figcaption{  
     transform: translate3d(0, -80%, 0);
     background-color: #ffc300;
 }
-
-
 
 h4{
     font-size: 18px;
@@ -100,8 +98,7 @@ h4{
     text-align: center;
     width: 100%;
     transform: translateY(0, 200%);
-    transition: transform .35s;
-   
+    transition: transform .35s; 
 }
 
 
@@ -173,8 +170,7 @@ text-align: center;
     justify-content: center;
     transition: 0.3s;
 }
-.footer-btn-container:hover{
-}
+
 .footer-btn-text{
     font-size: 18px;
     color: #ffc300;
