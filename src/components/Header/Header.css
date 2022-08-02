@@ -148,8 +148,31 @@
 
 @media (max-width: 780px) {
   .svg-container {
-    left: 0px;
-    
+    left: 0px; 
     bottom: -1px;
   }
+  .drrick-container{
+    width: auto;
+    height: auto;
+  }
+  .crane-container{
+    width: auto;
+    height: auto;
+  }
+  .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media(max-width:481){
+    .derrick-img {
+        display: none;
+    }
+    .crane-img{
+        display: none;
+    }
+    .drrick-container{
+        display: none;
+    }
 }

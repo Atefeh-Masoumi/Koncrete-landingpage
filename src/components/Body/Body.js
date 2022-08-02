@@ -412,7 +412,7 @@ const Body = () => {
             </figure>
           </div>
         </div>
-      
+          {/* footer */}
       <footer className="footer-up">
       
         <div className="footer-container">
@@ -422,9 +422,12 @@ const Body = () => {
               افزونه های فارسی ایرانه ! چی از این بهتر ؟؟؟
             </h3>
             <div className="footer-btn-container">
+      
+            
+
               <a className="footer-btn-text">
                 <span>
-                  <strong>
+                  <strong className="shine-text">
                   خرید قالب  از مارکت ژاکت
                   </strong>
                   </span>
@@ -445,7 +448,8 @@ const Body = () => {
       </footer>
       </div>
 
-      {/* footer */}
+  
+      
     </>
   );
 };

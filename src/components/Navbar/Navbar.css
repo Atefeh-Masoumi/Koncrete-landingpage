@@ -72,14 +72,31 @@ flex-basis: 60%;
     font-size: 14px;
     letter-spacing: 0;
     font-family: "iranyekan";
+     transition: 2s all; 
+    
+   
 }
- .nav-text:hover{
-    background-color: #ffc300;    
+  .nav-text:hover{
+      
     border-radius: 15px;
     color: #000;
-    display: block;
-    
-} 
+    background: linear-gradient(to right, #ffc300 0, rgb(247, 234, 118) 10%, #fcfcfc 20%);
+   transform: scale(1.1);
+   font-size: 18px;
+    background-position: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 900;  
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+
 .hometext-nav{
     background-color: #ffc300;    
     border-radius: 15px;
@@ -120,48 +137,22 @@ font-family: "iranyekan";
 .hamberger-menu{
     display: none;
 }
-#menu-header>.cz> a:before {
-    width: 100%;
-    left: 0px;
-    border-style: solid;
-    border-width: 0px;
-    border-radius: 50px;
-    height: 100%;
-    width: calc(100% + 16px);
-    left: -8px;
-    bottom: 0;
-    transform-origin: 100%;
-    transform: scale(1, 0);
-    background-color: #ffc300;
-}
-
-.ceneter-nav-content>.cz> a:before {
-    display: block;
-    content: '';
-    position: absolute;
-    z-index: -1;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #4e71fe;
-    transform-origin: right;
-    transform: scale(0, 1);
-    transition: transform .3s cubic-bezier(1, 0, 0, 1);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.ceneter-nav-content> .cz:after {
-    right: auto;
-    left: 0;
-    transform: translate(-50%, -50%);
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(50%, -50%);
-}
+ /*animation  */
+@keyframes shine{
+    0%{
+  
+      background-position: 0;
+    }
+    60%{
+  
+      background-position: 180px;
+    }
+    100% {
+  
+      background-position: 180px;
+    }
+      
+    }
 
 /* mobile */
 @media (max-width:780px) {

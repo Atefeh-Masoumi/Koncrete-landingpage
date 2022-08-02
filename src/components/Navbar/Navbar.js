@@ -37,7 +37,9 @@ const Navbar = () => {
               </a>
             </li>
             <li className="cz">
+            <a href="#">
               <span className="nav-text">پشتیبانی</span>
+              </a>
             </li>
           </ul>
 
