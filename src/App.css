@@ -17,6 +17,10 @@
     font-family: iranyekan;
     src: url(asset/Fonts/iranyekanwebregularfanum.woff);
   }
+  @font-face {
+    font-family: Javan;
+    src: url(asset/Fonts/Javanweb.woff);
+  }
   body{
     background-color: #2e2e37;
   }

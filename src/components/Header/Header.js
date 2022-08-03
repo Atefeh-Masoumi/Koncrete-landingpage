@@ -24,9 +24,13 @@ const Header = () => {
                 <span className="header-text">
                   شاهکارقالب های شرکتی،ساختمانی وردپرس
                 </span>
+                
               </div>
+              <span className="mobile-header-name">
+                  کانکریت
+                </span>
               <div className="bg-header-logo">
-                <img src={darklogo} alt="logo" />
+                <img src={darklogo} alt="logo" className="header-logo-img"/>
               </div>
             </div>
             <div className="drrick-container ">

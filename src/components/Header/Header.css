@@ -128,11 +128,11 @@
   visibility: visible;
   perspective: 601px;
 }
-.crane-img{
-    position: relative;
-    resize: both;
-   height: 100%;
-   width: 100%;
+.crane-img {
+  position: relative;
+  resize: both;
+  height: 100%;
+  width: 100%;
 }
 .svg-container {
   position: relative;
@@ -145,34 +145,94 @@
   left: 50%;
   position: relative;
 }
+.mobile-header-name {
+  display: none;
+}
 
-@media (max-width: 780px) {
+@media (max-width: 481px) {
+  .header{
+    height: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .header-image {
+    height: max-content;
+    background-color: transparent;
+    opacity: 1;
+    filter: none;
+  }
+  .header-text {
+    font-size: 16px;
+  }
+  .crane-img {
+    display: none;
+  }
+  .drrick-container {
+    display: none;
+  }
+  .derrick-img {
+    display: none;
+  }
   .svg-container {
-    left: 0px; 
+    display: none;
+  }
+  .contain {
+    display: none;
+  }
+  .bg-header-logo {
+    display: none;
+  }
+  .header-box-transparent {
+    background: none;
+  }
+  .mobile-header-name {
+    display: block;
+    z-index: 12;
+    font-family: Javan;
+    height: auto;
+    width: 155px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 60px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    
+  }
+}
+@media (max-width: 780px) and (min-width: 481) {
+  .svg-container {
+    left: 0px;
     bottom: -1px;
   }
-  .drrick-container{
+  .drrick-container {
     width: auto;
     height: auto;
   }
-  .crane-container{
+  .crane-container {
     width: auto;
     height: auto;
   }
-  .contain{
+  .contain {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-}
-@media(max-width:481){
-    .derrick-img {
-        display: none;
-    }
-    .crane-img{
-        display: none;
-    }
-    .drrick-container{
-        display: none;
-    }
+  .header-text {
+    font-size: 17px;
+  }
+  .header-logo-img {
+    width: 177px;
+    height: 39px;
+  }
 }

@@ -76,8 +76,7 @@ flex-basis: 60%;
     
    
 }
-  .nav-text:hover{
-      
+  .nav-text:hover{    
     border-radius: 15px;
     color: #000;
     background: linear-gradient(to right, #ffc300 0, rgb(247, 234, 118) 10%, #fcfcfc 20%);
