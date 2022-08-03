@@ -2,24 +2,24 @@
   visibility: visible;
   background: transparent;
   padding: 0px;
-  margin: 0px auto;
-  height: 700px;
+ margin-top: 4rem;
+  height: 655px;
   display: block;
   width: auto;
   overflow: visible;
-  margin-top: 4rem;
 }
 
 .bg-img {
   position: absolute;
   mix-blend-mode: overlay;
   top: 4rem;
-  height: 650px;
+  height: 600px;
   width: 100%;
+  background-color: #767272;
 }
 .header-image {
   width: 100%;
-  height: 700px;
+  height: 650px;
   left: 0px;
 }
 
@@ -128,12 +128,7 @@
   visibility: visible;
   perspective: 601px;
 }
-.crane-img {
-  position: relative;
-  resize: both;
-  height: 100%;
-  width: 100%;
-}
+
 .svg-container {
   position: relative;
   z-index: 0;
@@ -144,25 +139,29 @@
   transform: translate(-50%, -120%);
   left: 50%;
   position: relative;
+ 
 }
 .mobile-header-name {
   display: none;
 }
 
 @media (max-width: 481px) {
+ .headcontain{
+  width: 100% !important;
+ }
   .header{
-    height: fit-content;
+    height: fit-content !important;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
   .header-image {
     height: max-content;
-    background-color: transparent;
     opacity: 1;
     filter: none;
   }
   .header-text {
-    font-size: 16px;
+    font-size: 14px!important;
+    text-align: center;
   }
   .crane-img {
     display: none;
@@ -184,6 +183,7 @@
   }
   .header-box-transparent {
     background: none;
+    padding: 0;
   }
   .mobile-header-name {
     display: block;
@@ -206,9 +206,63 @@
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
-    visibility: visible;
-    
+    visibility: visible; 
   }
+  
+  
+}
+@media (max-width: 992px) {
+  .bg-img {
+    height: 50vh;
+  }
+  .header{
+    height: 50vh;
+  }
+  .header-image{
+    height: 470px;
+  }
+  
+  .header-text {
+    font-size: 19px;
+  }
+  .header-logo-img {
+    width: 177px;
+    height: 39px;
+  }
+  .header-box-transparent{
+    height: fit-content;
+  }
+  .bg-header-logo{
+    width: 187px;
+    height: 50px;
+  }
+  .derrick-img{
+    width: 70%;
+    height: 70%;
+  }
+  .contain{
+    width: 391px;
+    height: 391px;
+  }
+  .crane-container{
+    width: 100%;
+    height: 100%;
+  }
+  .crane-img{
+    width: 90%;
+    height: 90%;
+  }
+  
+  .svg-container{
+    position: absolute;
+  }
+  .derrick-container{
+    width: 391px!important;
+  }
+  .headcontain{
+    width: 65%;
+  }
+  
 }
 @media (max-width: 780px) and (min-width: 481) {
   .svg-container {
@@ -220,8 +274,8 @@
     height: auto;
   }
   .crane-container {
-    width: auto;
-    height: auto;
+    width: 361px;
+    height: 361px;
   }
   .contain {
     display: flex;
@@ -229,10 +283,11 @@
     align-items: center;
   }
   .header-text {
-    font-size: 17px;
+    font-size: 16px;
   }
   .header-logo-img {
     width: 177px;
     height: 39px;
   }
+  
 }

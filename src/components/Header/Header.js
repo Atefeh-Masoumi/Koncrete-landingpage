@@ -18,7 +18,7 @@ const Header = () => {
               <img src={crane} className="crane-img " alt="crane" />
             </div>
           </div>
-          <div className="">
+          <div className="headcontain">
             <div className="headerbox-div ">
               <div className="header-box-transparent">
                 <span className="header-text">
@@ -28,7 +28,7 @@ const Header = () => {
               </div>
               <span className="mobile-header-name">
                   کانکریت
-                </span>
+              </span>
               <div className="bg-header-logo">
                 <img src={darklogo} alt="logo" className="header-logo-img"/>
               </div>
