@@ -214,6 +214,7 @@ text-align: center;
     text-align:center ;
     
 }
+
 .shine-text{
     transition:  500ms;
 }
@@ -259,4 +260,9 @@ text-align: center;
         width: 80%;
     }
 }
-
+@media(max-width:581px){
+    .text-bottom{
+        display: flex;
+        justify-content: center;
+    }
+}
