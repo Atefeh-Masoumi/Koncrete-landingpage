@@ -127,6 +127,8 @@
   z-index: 5;
   visibility: visible;
   perspective: 601px;
+  width: 591px;
+  height: 591px;
 }
 
 .svg-container {
@@ -176,7 +178,7 @@
     display: none;
   }
   .contain {
-    display: none;
+    display: none !important;
   }
   .bg-header-logo {
     display: none;
@@ -211,6 +213,39 @@
   
   
 }
+
+@media (max-width: 780px) {
+  .svg-container {
+    left: 0px;
+    bottom: -1px;
+    position: relative;
+  }
+  .drrick-container {
+    width: auto;
+    height: auto;
+  }
+  .crane-container {
+    width: 291px ;
+    height: 310px ;
+  }
+  .contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-text {
+    font-size: 16px!important;
+  }
+  .header-logo-img {
+    width: 177px;
+    height: 39px;
+  }
+  .derrick-img{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+}
 @media (max-width: 1000px) {
   .bg-img {
     height: 50vh;
@@ -231,13 +266,14 @@
   }
   .header-box-transparent{
     height: fit-content;
+    width: max-content;
   }
   .bg-header-logo{
     width: 187px;
     height: 50px;
   }
   .derrick-img{
-    width: 70%;
+    width: 80%;
     height: 70%;
   }
   .contain{
@@ -253,42 +289,11 @@
     height: 90%;
   }
   
-  .svg-container{
-    position: absolute;
-  }
   .derrick-container{
     width: 391px!important;
   }
   .headcontain{
     width: 65%;
-  }
-  
-}
-@media (max-width: 780px) and (min-width:581px) {
-  .svg-container {
-    left: 0px;
-    bottom: -1px;
-    position: relative;
-  }
-  .drrick-container {
-    width: auto;
-    height: auto;
-  }
-  .crane-container {
-    width: 361px;
-    height: 361px;
-  }
-  .contain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .header-text {
-    font-size: 16px;
-  }
-  .header-logo-img {
-    width: 177px;
-    height: 39px;
   }
   
 }
