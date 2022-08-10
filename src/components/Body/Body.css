@@ -120,9 +120,9 @@ h4{
     opacity: 1;
 }
 .demo-span{
-color: #ffffff;
+    color: #ffffff;
     font-size: 22px;
-    
+    font-family:'iranyekan' ;
 }
 figcaption > a {
     z-index: 1000;
