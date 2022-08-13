@@ -22,7 +22,9 @@
   height: 650px;
   left: 0px;
 }
-
+.header-logo-img{
+  padding: 4px;
+}
 .inner-header-img {
   display: flex;
   justify-content: space-evenly;
@@ -51,7 +53,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
   resize: both;
 }
 .headerbox-div {
@@ -130,7 +132,10 @@
   width: 591px;
   height: 591px;
 }
-
+.crane-img{
+  width: 610px;
+  height: 600px;
+}
 .svg-container {
   position: relative;
   z-index: 0;
@@ -218,7 +223,9 @@
   .svg-container {
     left: 0px;
     bottom: -1px;
-    position: relative;
+    position: absolute;
+    z-index: 100;
+    inset: auto;
   }
   .drrick-container {
     width: auto;
@@ -285,8 +292,8 @@
     height: 100%;
   }
   .crane-img{
-    width: 90%;
-    height: 85%;
+    width: 391px;
+    height:391px;
   }
   
   .derrick-container{
