@@ -1,6 +1,6 @@
 {
   "name": "koncrete-danapeyvast",
-  "homepage": "http://localhost/koncerete/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
